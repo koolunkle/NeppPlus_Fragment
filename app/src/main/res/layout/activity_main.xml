@@ -7,5 +7,11 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <fragment
+        android:tag="첫프래그먼트"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        class="com.neppplus.fragment_20211105.fragments.FirstFragment" />
+
 
 </LinearLayout>
