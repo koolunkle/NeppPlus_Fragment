@@ -10,8 +10,13 @@
     <fragment
         android:tag="첫프래그먼트"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="250dp"
         class="com.neppplus.fragment_20211105.fragments.FirstFragment" />
 
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:tag="두번째프래그먼트"
+        class="com.neppplus.fragment_20211105.fragments.SecondFragment" />
 
 </LinearLayout>
